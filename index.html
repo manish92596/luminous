@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+
+<!-- 3 button -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Tariff Monitoring & Energy Consumption Analytics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="tariffButton">Real-Time Tariff Monitoring</button>
+        <div id="priceDisplay" class="hidden">
+            <canvas id="tariffChart"></canvas>
+        </div>
+
+        <button id="analyticsButton">Energy Consumption Analytics</button>
+        <div id="analyticsDisplay" class="hidden">
+            <canvas id="consumptionChart"></canvas>
+            <div id="report">
+                <h3>Energy Consumption Report</h3>
+                <p id="reportText"></p>
+            </div>
+        </div>
+
+
+        
+
+        <button id="scheduleButton">Smart Scheduling</button>
+        <div id="scheduleDisplay" class="hidden">
+            <div id="scheduleReport">
+                <h3>Automated Appliance Scheduling Report</h3>
+                <p id="scheduleText"></p>
+            </div>
+        </div>
+
+
+        <button id="solarButton">Solar Energy Management</button>
+        <div id="solarDisplay" class="hidden">
+            <canvas id="solarChart"></canvas>
+            <div id="batteryReport">
+                <h3>Battery Storage Management Report</h3>
+                <p id="batteryText"></p>
+            </div>
+        </div>
+
+        <button id="notificationsButton">Notifications and Alerts</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
